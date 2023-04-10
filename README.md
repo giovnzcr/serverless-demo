@@ -45,10 +45,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 9. Una vez publicada la infraestructura necesaria en AWS, correr el comando: serverless syncToS3
 
-10. Para obtener el URl donde se esta hosteando tu Angular app, correr el comando: sls domainInfo
+10. Para obtener el URl donde se esta publicado tu Angular app, correr el comando: sls domainInfo
 
 11. Navegar a tu URL para ver tu app corriendo en aws.
 
 12. Si quieres reflejar cambios en tu código, haz los cambios, salvalos, corre el paso 6, luego el paso 9 y por ultimo el comando: serverless invalidateCloudFrontCache para actualizar el cache de aws y navega de nuevo a tu app.
 
-13. Si quieres remover tu app de AWS, dirigete al [S3 bucket](https://s3.console.aws.amazon.com/s3/home?region=us-east-1) que creaste y vacíalo, luego puedes correr el comando: serverless remove.
+13. Si quieres remover tu app de AWS, dirígete al [S3 bucket](https://s3.console.aws.amazon.com/s3/home?region=us-east-1) que creaste y vacíalo, luego puedes correr el comando: serverless remove.
