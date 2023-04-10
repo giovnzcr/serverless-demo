@@ -35,7 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 4. Correr un npm i.
 
-5. Setear el API key para que serverless pueda subir tu codigo: serverless config credentials --provider aws --key <##Llave generada en paso 2> --secret <## Secret generado en paso 2> -o
+5. Setear el API key para que serverless pueda subir tu código: serverless config credentials --provider aws --key <##Llave generada en paso 2> --secret <## Secret generado en paso 2> -o
 
 6. Correr un ng build.
 
