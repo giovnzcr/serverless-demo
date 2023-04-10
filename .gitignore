@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+.serverless/cloudformation-template-create-stack.json
+.gitignore
+.gitignore
+.serverless/serverless-state.json
+.serverless/cloudformation-template-update-stack.json
